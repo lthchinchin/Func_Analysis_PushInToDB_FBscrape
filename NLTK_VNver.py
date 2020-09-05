@@ -8,8 +8,10 @@ from underthesea import word_tokenize
 import time
 import pymysql
 
-def database(companyname,companymail,programinglanguage,jobposition,linkpost,descpost,status):
-    db = pymysql.connect("localhost","root","","shop_laravel" )
+
+def database(companyname, companymail, programinglanguage, jobposition, linkpost, descpost, status):
+    print("asjdknjkasndjadns")
+    db = pymysql.connect("localhost", "root", "", "shop_laravel")
     cursor = db.cursor()
     sql = """
          INSERT INTO tbl_job_hirring (company_name,company_mail,programing_language,job_position,link_post,post_desc,status)
@@ -17,13 +19,15 @@ def database(companyname,companymail,programinglanguage,jobposition,linkpost,des
                (%s,%s,%s,%s,%s,%s,%s)
         """
     try:
-        cursor.execute(sql, (companyname,companymail,programinglanguage,jobposition,linkpost,descpost,status))
+        cursor.execute(sql, (companyname, companymail,
+                             programinglanguage, jobposition, linkpost, descpost, status))
         db.commit()
         print("Lưu vào csdl thành công!")
     except:
         db.rollback()
         print("Lưu Thất bại!")
     db.close()
+
 
 def func_TrainFor_checkSPAM():
     synonyms_raw = []
@@ -80,6 +84,8 @@ def func_TrainFor_checkSPAM():
     ArrCheck = word_tokenize(keywords_for_check)
     print(ArrCheck)
 # func_TrainFor_checkSPAM()
+
+
 def func_TrainFor_programmingLanguage():
     pl_raw = []
     pl_lower = []
@@ -126,6 +132,7 @@ def func_TrainFor_programmingLanguage():
         print("#Train Fail!")
     f.close()
 
+
 def func_pushcontent():
     f1 = codecs.open("E:Python/FB_Group_Scrap/file1.txt", "r", "utf8")
     f2 = codecs.open("E:Python/FB_Group_Scrap/file2.txt", "w", "utf8")
@@ -133,7 +140,7 @@ def func_pushcontent():
     content = f1.read().split()
     newcontent = []  # mang nay update file 1
     f1.close()
-    
+
     # lay data tu file 1 sang file 2
     print("_length content: "+str(len(content)))
     try:
@@ -160,15 +167,18 @@ def func_pushcontent():
     except:
         print("Đã xử lí hết . Hàng đợi hiện trống!")
 # func_pushcontent()
+
+
 def func_DataAnalysis():
     t1 = time.time()
-    
+
     func_pushcontent()
     # content post raw and luot bo cac ki tu ngoai chu va so
     try:
         f = codecs.open("E:Python/FB_Group_Scrap/file2.txt", "r", "utf8")
         text_raw = f.read()
-        text = re.sub(r"\W+|_", " ", text_raw)  # bien cac ki tu dac biet thanh " "
+        # bien cac ki tu dac biet thanh " "
+        text = re.sub(r"\W+|_", " ", text_raw)
         # print("*Text raw: "+text_raw)
         # print("\nNoi Dung Chinh: ")
         tokens = word_tokenize(text)
@@ -177,9 +187,12 @@ def func_DataAnalysis():
         # tim kiem ngon ngu lap trinh trong post
         programming_language = []
         company_email = re.findall(r'\S+@\S+', text_raw)
-        link_post = str(re.findall(r'(https?://www.facebook.com/[^\s]+)', text_raw)).strip(",[]'""")
+        # strip loai bo cac ki tu phia ngoai cung
+        link_post = (
+            (re.findall(r'(https?://www.facebook.com/[^\s]+)', text_raw))[0]).strip(',"')
+        print("link_post: "+link_post)
         job_position_check = ["Senior", "Fresher",
-                            "Intern", "Junior", "Tester", "Dev", "Software Test Intern", "Software Test Fresher"]
+                              "Intern", "Junior", "Tester", "Dev", "Software Test Intern", "Software Test Fresher"]
         company_syn = ["công ty", "cty"]
         job_position = []
         f = open("E:Python/FB_Group_Scrap/train_NLTK/pl_train.txt", "r")
@@ -213,13 +226,25 @@ def func_DataAnalysis():
                 if(i.lower() == j.lower()):
                     if(j not in programming_language):
                         programming_language.append(j)
-        
+
         print("--Company name: "+str(company_name))
         print("--Post nay nhac den cac nn lap trinh: "+str(programming_language))
         print("--Gmail company: "+str(company_email))
         print("--Link post: "+str(link_post))
         print("--Vi tri can tuyen: "+str(job_position))
-        print("--Desc: "+text)
+        # print("--Desc: "+text)
+        x = ''
+        y = ''
+        z = ''
+        for i in programming_language:
+            x = x+i+", "
+        programminglanguage = x.strip(", ")
+        for i in company_email:
+            y = y+i+", "
+        companyemail = y.strip(", ")
+        for i in job_position:
+            z = z+i+", "
+        jobposition = z.strip(", ")
         
         # --
         # print("ARR: "+str(tokens))  # day la noi dung file input da split
@@ -254,28 +279,38 @@ def func_DataAnalysis():
         # print("\n--Show Bin : "+str(bintrash))
 
         # thong ke so luong tu sau khi luot stopwords trong post
-        freq = nltk.FreqDist(clean_tokens)
+
+        # freq = nltk.FreqDist(clean_tokens)
+
         # ve bieu do sau khi luot stopwords trong post
         # freq.plot(20, cumulative=False)
 
         # freq = nltk.FreqDist(tokens) # thong ke so luong tu day du trong post
         # for key,val in freq.items():
         #     print(str(key) + ':' + str(val))
-        # -- 
-        f.close()
-        database(company_name,str(company_email),str(programming_language),str(job_position),link_post,text,alert)
+        # --
+
+        # print("Data push: "+company_name+" "+companyemail+" "+programminglanguage+" "+jobposition+" "+link_post+" "+text+" "+str(alert))
+        database(company_name, companyemail, programminglanguage,
+                 jobposition, link_post, text, alert)
         print("-------alert: "+str(alert))
         if(alert != 0):
             print("WARNING!-Day co kha nang cao la post khong lien quan!\n")
         else:
             print("Khong co canh bao nao!")
+        f.close()
     except:
         pass
     t2 = time.time()
     print("-----Processing Time: "+str((t2-t1)))
-func_DataAnalysis()      
+
+
+func_DataAnalysis()
+
+
 def trainCheckPost():
     func_TrainFor_checkSPAM()
+
 
 def funcquit():
     print("Kết Thúc.")
@@ -296,6 +331,3 @@ def funcOpenFileTrainPL():
     keywords_for_check = f.read()
     ArrCheck = keywords_for_check.split()
     print(str(ArrCheck)+"\n")
-
-
-
