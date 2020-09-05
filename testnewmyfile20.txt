@@ -1,0 +1,65 @@
+[{
+    "description": "[HCM/ĐÀ NẴNG] SENIOR BACKEND (JAVA/PHP/GOLANG/KOTLIN) - MAX 2500$ GROSS - 3 NĂM KINH NGHIỆM - CÔNG TY OUTSOURCE SWEDEN - TIẾNG ANH GIAO TIẾP 🧚‍♂️Chính sách work from home 9 ngày/ 1 tháng + SHARES/STOCKS 🧚‍♂️Cơ hội onsite ở clients ở EU Mình cần tìm dev backend 1 trong các ngôn ngữ ở trên để xây dựng microservice system cho client ở Đức 🎯Yêu cầu công việc: • At least 3-year experience in web application development • Experience in any programming languages, prefers Java/Kotlin, Golang, PHP • Experienced with REST API, Service Oriented Architecture •Good knowledge of OOP, software design (clean code, design patterns, SOLID,…) • Experience with MySQL and PostgreSQL Database •Good English skills, especially speaking and writing\n •Experience in Devops/ AWS (plus, but not mandatory)\n 🍄BENEFIT · Thưởng tháng 13 · Xét tăng lương 1 năm 2 lần - Khám sức khoẻ định kỳ hàng năm - Được đóng BHXH, BHYT đầy đủ. Các bạn quan tâm vui lòng INBOX hoặc Skyp: hoaigiang.tran0404 Mail: jessie.tran0508@gmail.com Em cám ơn ạ",
+    "images": [],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768931823273789/",
+    "published": "22 giờ"
+},
+{
+    "description": "Những chiếc job #PHP #Java #QC sang xịn mịn của nhà #DACTechViệtNam vẫn đang chờ các vị huynh đài đến hốt  lia lịa đây ạ 😝😝😝PHỎNG VẤN ONLINE>>> ON-BOARD TẠI GIA LIỀN NGAY VÀ LẬP TỨC 😤JD CÁC VỊ TRÍ:QC: https://bit.ly/329PNJfPHP: http://bit.ly/2kUsRKGJAVA: http://bit.ly/33MI4OzQUYỀN LỢI:Mức lương: lên tới 1000$Review lương hàng nămBonus: 02 lần/năm (Bonus Mùa hè & Bonus Tết)100% lương trong thời gian thử việcQuà tặng vào mỗi dịp lễ (01/05, 02/09, Tết Dương lịch)Bảo hiểm xã hội theo luật Lao động và Bảo hiểm cao cấp Tokio MarineTiệc Happy Hour hàng tuần, Team Building hàng tháng, Kick-off hàng quý, Company Trip hàng nămLớp học tiếng Nhật miễn phí (học tại công ty trong thời gian làm việc)Trợ cấp chức vụ, nhà ở, đi lại, ăn trưaTrợ cấp đối với chứng chỉ tiếng Nhật (lên đến 8 triệu/tháng) & và các chứng chỉ kỹ thuật (Java, Ruby, Software Tester, Scrum Master, …)Chế độ chăm sóc phụ nữ: Nghỉ sinh lý phụ nữ: 01 ngày/tháng; nghỉ sau sinh cho nhân viên nữ có con dưới 01 tuổi: 01h/ngàyLIÊN HỆ:👉 Email: hr@dactech.vn👉 Skype: jujuphan (Ms. Trinh Phan) hoặc live:e49e5c5d4eeec867 (Ms. Tú)👉 Địa chỉ: tầng 06, Tòa nhà VNPT, Đường 344 2/9, Quận Hải Châu, Đà Nẵng👉 Giờ làm việc: 8h - 17h (thứ 2 - thứ 6)",
+    "images": [
+        "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p261x260/118382530_2681775265377107_4762927601190539470_n.jpg?_nc_cat=109&_nc_sid=ca434c&_nc_ohc=fV4st0qM4ZsAX-2V2JF&_nc_ht=scontent.fdad2-1.fna&tp=3&oh=1f06fea4625dd77f8e9ff2a5a6e05605&oe=5F723684"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768884789945159/",
+    "published": "23 giờ"
+},
+{
+    "description": "📷📷📷Fsoft đang tuyển 30 Java kinh nghiệm 6 tháng trở lên cho tháng 9, tháng 10 nè cả nhà mình ơi 📷📷Onboard trong tháng 9 nhận signing bounus thêm 5-15M nè 📷Hỗ trợ PV skype online, có kết quả trong ngày 📷Hỗ trợ process làm work from home trong thời gian giãn cách do Covid nè Các anh chị apply qua 📷📷Email: SaTTL@fsoft.com.vn 📷📷Phone/Zalo/Skype: 0962622438\n🙋‍♀️🙋‍♀️🙋‍♀️Fsoft đang tuyển 30 Java kinh nghiệm 6 tháng trở lên cho tháng 9, tháng 10 nè cả nhà mình ơi  👆👆Onboard trong tháng 9 nhận signing bounus thêm 5-15M nè ✅Hỗ trợ PV skype online, có kết quả trong ngày  ✅Hỗ trợ process làm work from home trong thời gian giãn cách do Covid nè Các anh chị apply qua  📪📪Email: SaTTL@fsoft.com.vn 📞📞Phone/Zalo/Skype: 0962622438",
+    "images": [
+        "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-9/cp0/e15/q65/s851x315/118154948_643700726523434_8519882287405446078_o.jpg?_nc_cat=106&_nc_sid=8024bb&_nc_ohc=ZkvojiDOgjkAX-Q_dcy&_nc_ht=scontent.fdad1-1.fna&tp=9&oh=f74a7e85b351c5cfa2617b1e697c7c50&oe=5F71CA6B"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768865373280434/",
+    "published": "Hôm qua lúc 09:49"
+},
+{
+    "description": "Do you want to work in a one of the best Custom Software Development Companies in Vietnam chosen by European Business Review? Let's see some positions we are looking for ☺️☺️ 1. PHP Developer ( $1500) 2. Reactjs Developer ($1800) Contact me via Skype: live:4e470f6975e3b286\nThank you Bloomberg for featuring Saigon Technology as one of the best custom software development companies in Vietnam!\n HO CHI MINH CITY, Vietnam -- August 27, 2020\n When it comes to using software in streamlining business operations, there is no “one size fits all.” Every business has to employ systems and structures that address its unique model and market dynamics. Custom software development provides this flexibility for businesses.\n Vietnam is one of the top destinations for businesses looking for custom software solutions. It has a vibrant tech industry with hundreds of options to consider. This post will spotlight the top 5 custom software development companies in Vietnam. Read more: https://www.bloomberg.com/press-releases/2020-08-27/top-5-custom-software-development-companies-in-vietnam-selected-by-the-european-business-review",
+    "images": [
+        "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p228x119/118175270_3506867512697196_279600966867327970_n.jpg?_nc_cat=102&_nc_sid=8024bb&_nc_ohc=5SVJhFMukIIAX9KMAxx&_nc_ht=scontent.fdad1-1.fna&tp=3&oh=3c4528757a02f24f67c5e6f062147dc1&oe=5F75516D",
+        "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/335FjeuxeZG.png"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768854503281521/",
+    "published": "Hôm qua lúc 09:32"
+},
+{
+    "description": "Bạn có mún Works From Home trong mùa Covid??? Hãy đến ngay Enjoyworks nhà mình nhé.📷📷📷 List HOT JOB cho các dev thời cô vi đây ạ!!! 📷SENIOR JAVA (Có kinh nghiệm về thiết kế, phát triễn ứng dụng Java, biết về công nghệ My SQL, ORM ( (JPA2, Hibernate)) ... 📷 SENIOR PHP ( có kn về PHP (Laravel), biết ReactJS là 1 lợi thế) 📷 SENIOR TESTER ( có kn về test plan, test cases, test scenarios, test UIs, function/non-function, APIs, front-end systems is plus...) 📷 SENIOR REACTJS ( (biết reactjs, redux, react-hooks) biết react native là lợi thế, có kn về html5,css3) Công ty đang làm nhiều dự án lớn, khách hàng lớn, ổn định với các đối tác Hàn Quốc như: 📷 Dự ánTrading System Project (hệ thống giao dịch Kamex) 📷 Dự án AI ứng dụng làm việc qua video call ( áp dụng cho các trung tâm hành chính ) 📷Dự án giáo dục thông qua các K-pop Star (học tiếng hàn thông qua các video của các ngôi sao Hàn Quốc ) Và còn nhiều dự án lớn khác.... 📷 Lương các dev sẽ được deal thõa mãn tùy năng lực của mình cộng với lương 13, review lương hằng năm đầy đủ, Happy Hour, sinh nhật đầy đủ không thiếu... Nhanh tay gởi CV qua mail: 📷enjoy-danang@enjoyworks.co",
+    "images": [
+        "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p261x260/118599960_312725969998988_6522826697297707286_n.jpg?_nc_cat=103&_nc_sid=ca434c&_nc_ohc=Vc5ioAEGI9AAX-0cAUv&_nc_ht=scontent.fdad1-1.fna&tp=3&oh=b81d17181d8670794ebeed75e1c871aa&oe=5F7286AC"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768784699955168/",
+    "published": "Hôm qua lúc 07:26"
+},
+{
+    "description": "Thả nhẹ cái JOB đầu tuần, cuối tháng.Muôn vàn cơ hội vi vu Nhật tại Rikkei :)Sinh viên năm 3, năm 4, tiếng Nhật ~N3, ký naitei, bay sang Nhật vào tháng 10/2021BrSE > 1 năm kinh nghiệm, tiếng Nhật ~N2, giao tiếp ổn, nếu có nguyện vọng onsite có thể sắp xếp tháng 10.Inbox để trao đổi thông tin chi tiết:Mail: hott@rikkeisoft.comSkype: hotran.cfl",
+    "images": [
+        "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p235x350/118580515_1417028108486603_1946389590247391534_o.jpg?_nc_cat=106&_nc_sid=ca434c&_nc_ohc=Xz6DYq4FSQQAX-Ok0bf&_nc_ht=scontent.fdad1-1.fna&tp=3&oh=de83d55fc3c77cb40810acdb448ed3e2&oe=5F73584E"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768728899960748/",
+    "published": "Hôm qua lúc 06:31"
+},
+{
+    "description": "From 0 to more than 40 people 😎, we are now happy to share that 🎊 our 2nd Office in Danang is coming soon 🎊 and welcoming more talented engineers 💪to help us rock many upcoming challenging projects!\n - PHP Engineers (Middle to Senior Level):  https://www.nfq.asia/job/php-developer - FE Engineers (Middle to Senior Level): https://www.nfq.asia/job/front-end-developer - Technical Leader: https://www.nfq.asia/job/technical-lead-php-js-e-commerce - Ruby on Rails Engineers (Senior Level): https://www.nfq.asia/job/senior-ruby-on-rails-developer\n 🎊 More detail of the 2nd office will be published soon!  🎊 If you want to drop by, don’t hesitate to contact us and we'll send you an invitation. 🎊 If you want to discover as an insider, send us your CV to career@nfq.asia\n #NFQAsia #2ndOfficeinDanang #Hiring #PHP #FE #TechLead #RoR",
+    "images": [
+        "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p160x160/118378233_3227652060679370_312587561039189794_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_ohc=OmtEzALlZKUAX_X8Z9M&_nc_ht=scontent.fdad2-1.fna&tp=3&oh=dc68ec5772a15b96ba99da0bec86366f&oe=5F756509"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768677766632528/",
+    "published": "Hôm qua lúc 05:02"
+},
+{
+    "description": "[ĐN] Cảm lạnh có thể là do gió. Nhưng cảm nắng chắc chắn là do job xịn ở Enjoyworks nhà em. Offer cực đã, hốt ngay kẻo lỡ nhé Dev ơi. 📷 SENIOR JAVA (Có kinh nghiệm về thiết kế, phát triễn ứng dụng Java, biết về công nghệ My SQL, ORM  (JPA2, Hibernate)) ... 📷 SENIOR PHP ( có kn về PHP (Laravel), biết ReactJS là 1 lợi thế) 📷 SENIOR TESTER ( có kn về test plan, test cases, test scenarios, test UIs, function/non-function, APIs, front-end systems is plus...) 📷 SENIOR REACTJS ( (biết reactjs, redux, react-hooks) biết react native là lợi thế, có kn về html5,css3) Dự án lớn, về đều đều, đang chờ các bác về với Enjoyworks nhà em 📷 Dự ánTrading System Project (hệ thống giao dịch Kamex) 📷 Dự án AI ứng dụng làm việc qua video call ( áp dụng cho các trung tâm hành chính ) 📷 Dự án giáo dục thông qua các K-pop Star (học tiếng hàn thông qua các video của các ngôi sao Hàn Quốc ) WFH mùa covid, lương đánh giá theo năng lực, lương 13, review hằng năm, sinh nhật, Happy Hour không thiếu, mỗi tháng được hỗ trợ kinh phí nhậu nhẹt thả ga...... Apply qua mail: enjoy-danang@enjoyworks.co.kr",
+    "images": [
+        "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/s261x260/118286348_312591776679074_1840448693730816055_n.jpg?_nc_cat=109&_nc_sid=ca434c&_nc_ohc=hoQufYkPwgEAX-jFA44&_nc_ht=scontent.fdad2-1.fna&tp=9&oh=c5b8d7e391f6d95acb188b331fa33caf&oe=5F739981"
+    ],
+    "post_url": "https://www.facebook.com/groups/vieclamCNTTDaNang/permalink/1768593919974246/",
+    "published": "Hôm qua lúc 02:36"
+},
+{
+    "description": "Hay em live stream bán job chốt đơn ứng viên đây nhỉ 🤣🤣 Job nhà em như thế này, anh em vào lựa job lựa job đi ạ 😆😆😆  Php/ Java/ .Net/ Tester/ System cần thông tin gì cứ ib em ạ 😘😘😘\n👉 𝟎𝟐 𝐓𝐞𝐬𝐭𝐞𝐫𝐬: https://bit.ly/2YH1AMw 👉 𝟎𝟓 𝐏𝐇𝐏 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬: https://bit.ly/3gDA6NZ 👉 𝟎𝟑 𝐉𝐚𝐯𝐚 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬: https://bit.ly/2DecmSY 👉 𝟎𝟏 𝐒𝐲𝐬𝐭𝐞𝐦 𝐚𝐝𝐦𝐢𝐧: https://bit.ly/2QKKgSx 👉 𝟎𝟐 .𝐍𝐞𝐭 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬: https://bit.ly/34JAc4a\n 🤩🤩 𝐂𝐨𝐝𝐞𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐕𝐢𝐞𝐭𝐧𝐚𝐦 𝐫𝐞𝐜𝐫𝐮𝐢𝐭𝐦𝐞𝐧𝐭 🤩🤩 Now, we are hiring: \n ☘️ 𝐁𝐄𝐍𝐄𝐅𝐈𝐓𝐒:  - Competitive salary   - Bi-annual salary reviews (2 times/year) - DevSecOps environment - Annual health check - Bao Viet Premium health care - Free English classes with foreign teachers  - International working environment. (Staffs from many places in the world) - Football, Badminton, Swimming, Pingpong clubs.  - Exciting team-building activities.(Weekly, monthly..) - Nice & spacious offic...
