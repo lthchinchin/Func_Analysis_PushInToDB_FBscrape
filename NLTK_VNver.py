@@ -10,14 +10,19 @@ import pymysql
 
 
 def database(companyname, companymail, programinglanguage, jobposition, linkpost, descpost, status):
-    print("asjdknjkasndjadns")
-    db = pymysql.connect("localhost", "root", "", "shop_laravel")
-    cursor = db.cursor()
+    try:
+        db = pymysql.connect("localhost", "root", "", "fb_scrape_db")
+        cursor = db.cursor()
+        print("Kết nối với csdl thành công!")
+    except:
+        print("Không kết nối được với csdl!")
+
     sql = """
-         INSERT INTO tbl_job_hirring (company_name,company_mail,programing_language,job_position,link_post,post_desc,status)
-         VALUES
-               (%s,%s,%s,%s,%s,%s,%s)
+        INSERT INTO tbl_job_hirring (company_name,company_mail,programing_language,job_position,link_post,post_desc,status)
+        VALUES
+            (%s,%s,%s,%s,%s,%s,%s)
         """
+
     try:
         cursor.execute(sql, (companyname, companymail,
                              programinglanguage, jobposition, linkpost, descpost, status))
@@ -27,8 +32,9 @@ def database(companyname, companymail, programinglanguage, jobposition, linkpost
         db.rollback()
         print("Lưu Thất bại!")
     db.close()
-
-
+# database('sad', 'sad', 'asdsa',
+#     'jobposition', 'link_post', 'text', 1)
+# quit()
 def func_TrainFor_checkSPAM():
     synonyms_raw = []
     synonyms = []
@@ -85,53 +91,45 @@ def func_TrainFor_checkSPAM():
     print(ArrCheck)
 # func_TrainFor_checkSPAM()
 
-
 def func_TrainFor_programmingLanguage():
+    
     pl_raw = []
-    pl_lower = []
-    pl_train = []
-    remov = []
     while True:
         print("_Nhap ngon ngu lap trinh muon train (press 0 de thoat): ")
-        w = " ".join(re.sub(r"\W+|_", " ", input()).split())
+        # w = " ".join(re.sub(r"\W+|_", " ", input()).split())
+        w = input().strip(" ")
         if(w == "0"):
             break
         pl_raw.append(w)
-
-    for i in pl_raw:
-        pl_lower.append(i.lower())
-    pl_train = list(set(pl_lower))
+    t1 = time.time()
     print("--Arr Input:"+str(pl_raw))
-    print("--Arr Input lowcase sau khi luot trung trong arr:"+str(pl_lower))
     f = codecs.open(
         "E:Python/FB_Group_Scrap/train_NLTK/pl_train.txt", "r", "utf8")
     keywords_for_check = f.read()
+    f.close()
     ArrCheck = keywords_for_check.split()
-    # luot tu trung o trong file Train (lv2)
-    for i in pl_train:
-        for j in ArrCheck:
+    pl_train = list(set(pl_raw))[:]
+    for i in list(set(pl_raw)):
+        for j in list(set(ArrCheck)):
             if i == "":
-                remov.append(i)
+                pl_train.remove(i)
             if(i.lower() == j.lower()):
-                remov.append(i)
-    print("ARR remov:"+str(remov))
-    for j in list(set(remov)):
-        pl_train.remove(j)
-    print()
+                pl_train.remove(i)
     print("--ArrPLTrain mang nay se duoc push vao file train: ")
     print(pl_train)
-
     f = codecs.open(
-        "E:Python/FB_Group_Scrap/train_NLTK/pl_train.txt", "a", "utf8")
+        "E:Python/FB_Group_Scrap/train_NLTK/pl_train.txt", "a", "utf8")   
     if(len(pl_train) != 0):
         for i in pl_train:
             f.write(i+" ")
         f.write("\n")
+        f.close()
         print("$Train programming languages Success!$")
     else:
         print("#Train Fail!")
-    f.close()
-
+    t2 = time.time()
+    print("--processing time: "+str(t2-t1))
+# func_TrainFor_programmingLanguage()
 
 def func_pushcontent():
     f1 = codecs.open("E:Python/FB_Group_Scrap/file1.txt", "r", "utf8")
@@ -139,7 +137,7 @@ def func_pushcontent():
     arrtof2 = []  # mang nay day vao file 2
     content = f1.read().split()
     newcontent = []  # mang nay update file 1
-    f1.close()
+    
 
     # lay data tu file 1 sang file 2
     print("_length content: "+str(len(content)))
@@ -166,6 +164,7 @@ def func_pushcontent():
         f1a.close()
     except:
         print("Đã xử lí hết . Hàng đợi hiện trống!")
+    f1.close()
 # func_pushcontent()
 
 
@@ -232,16 +231,17 @@ def func_DataAnalysis():
         print("--Gmail company: "+str(company_email))
         print("--Link post: "+str(link_post))
         print("--Vi tri can tuyen: "+str(job_position))
+
         # print("--Desc: "+text)
-        x = ''
-        y = ''
-        z = ''
+        x=''
+        y=''
+        z=''
         for i in programming_language:
             x = x+i+", "
-        programminglanguage = x.strip(", ")
+        programminglanguage = x.strip(", ")      
         for i in company_email:
             y = y+i+", "
-        companyemail = y.strip(", ")
+        companyemail = y.strip(", ")  
         for i in job_position:
             z = z+i+", "
         jobposition = z.strip(", ")
@@ -250,6 +250,7 @@ def func_DataAnalysis():
         # print("ARR: "+str(tokens))  # day la noi dung file input da split
 
         # canh bao post co phai spam khong
+
         f = codecs.open(
             "E:Python/FB_Group_Scrap/train_NLTK/checkwords_vn_train.txt", "r", "utf8")
         text_check = f.read()
@@ -267,14 +268,15 @@ def func_DataAnalysis():
         vnstopwords = f.read()
         vn_sw = vnstopwords.splitlines()
         clean_tokens = tokens[:]
-        bintrash = []
+        # bintrash = []
         for token in tokens:
             if token in vn_sw:
                 clean_tokens.remove(token)
-                bintrash.append(token)
+                # bintrash.append(token)
 
         print("--Length clean_tokens : "+str(len(clean_tokens)))
         print("--Length tokens : "+str(len(tokens)))
+        print("2")
         # print("\n--Show clean token : "+str(clean_tokens))
         # print("\n--Show Bin : "+str(bintrash))
 
@@ -289,7 +291,6 @@ def func_DataAnalysis():
         # for key,val in freq.items():
         #     print(str(key) + ':' + str(val))
         # --
-
         # print("Data push: "+company_name+" "+companyemail+" "+programminglanguage+" "+jobposition+" "+link_post+" "+text+" "+str(alert))
         database(company_name, companyemail, programminglanguage,
                  jobposition, link_post, text, alert)
@@ -303,8 +304,6 @@ def func_DataAnalysis():
         pass
     t2 = time.time()
     print("-----Processing Time: "+str((t2-t1)))
-
-
 func_DataAnalysis()
 
 
